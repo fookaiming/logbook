@@ -27,6 +27,8 @@
 ---
 
 # BOOK
-
+- [Programming Concurrency on the JVM](empty.md)
+  - [Overview](./book/programming-concurrency-on-the-jvm/overview.md)
+  - [Strategies For Concurrency](./book/programming-concurrency-on-the-jvm/strategies-for-concurrency.md)
 ---
 [TODO](todos.md)
