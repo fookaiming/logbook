@@ -1,5 +1,7 @@
 # Cargo
+
 ## File Structure
+
 ```text
 .
 ├── Cargo.lock
@@ -30,6 +32,7 @@
         └── test_module.rs
 
 ```
+
 - Cargo.toml and Cargo.lock are stored in the root of your package (package root).
 - Source code goes in the src directory.
 - The default library file is src/lib.rs.
@@ -40,6 +43,7 @@
 - Integration tests go in the tests directory.
 
 ## Command
+
 ```shell
 cargo build
 
