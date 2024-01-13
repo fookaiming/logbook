@@ -34,5 +34,8 @@
 - [Programming Concurrency on the JVM](empty.md)
   - [Overview](./book/programming-concurrency-on-the-jvm/overview.md)
   - [Strategies For Concurrency](./book/programming-concurrency-on-the-jvm/strategies-for-concurrency.md)
+
+- [The Rust Programming Language](empty.md)
+  - [Cargo](./book/the-rust-programming-language/cargo.md)
 ---
 [TODO](todos.md)
