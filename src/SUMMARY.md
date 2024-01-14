@@ -4,39 +4,38 @@
 
 # SEC
 
-
 ---
 
 # DEV
+
 - [Data Structure](empty.md)- [Data Structure](empty.md)
-  - [Bloom Filter](./dev/data-structure/bloom-filter/bloom-filter.md)
+    - [Bloom Filter](./dev/data-structure/bloom-filter/bloom-filter.md)
 
 - [Distributed Systems](./dev/distributed-systems/distributed-system.md)
-  - [CSE138](./dev/distributed-systems/cse138/cse138.md)
-    - [Distributed System What and Why](./dev/distributed-systems/cse138/distributed-system-what-and-why/distributed-system-what-and-why.md)
+    - [CSE138](./dev/distributed-systems/cse138/cse138.md)
+        - [Distributed System What and Why](./dev/distributed-systems/cse138/distributed-system-what-and-why/distributed-system-what-and-why.md)
 
 - [LeetCode](empty.md)
-  - [Binary Search](./dev/leetcode/binary-search.md)
+    - [Binary Search](./dev/leetcode/binary-search.md)
 
 ---
 
 # OPS
+
 - [Linux](./ops/linux/linux.md)
 
 ---
 
-# MATH
-# Descrete Math
-
----
-
 # BOOK
+
 - [Programming Concurrency on the JVM](empty.md)
-  - [Overview](./book/programming-concurrency-on-the-jvm/overview.md)
-  - [Strategies For Concurrency](./book/programming-concurrency-on-the-jvm/strategies-for-concurrency.md)
+    - [Overview](./book/programming-concurrency-on-the-jvm/overview.md)
+    - [Strategies For Concurrency](./book/programming-concurrency-on-the-jvm/strategies-for-concurrency.md)
 
 - [The Rust Programming Language](empty.md)
-  - [Cargo](./book/the-rust-programming-language/cargo.md)
-  - [Common Programming Concept](book/the-rust-programming-language/common-programming-concept.md)
+    - [Cargo](./book/the-rust-programming-language/cargo.md)
+    - [Common Programming Concept](book/the-rust-programming-language/common-programming-concept.md)
+    - [Ownership](book/the-rust-programming-language/ownership.md)
+
 ---
 [TODO](todos.md)
