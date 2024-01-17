@@ -35,7 +35,7 @@
 - [The Rust Programming Language](empty.md)
     - [Cargo](./book/the-rust-programming-language/cargo.md)
     - [Common Programming Concept](book/the-rust-programming-language/common-programming-concept.md)
-    - [Ownership](book/the-rust-programming-language/ownership.md)
+    - [Ownership](book/the-rust-programming-language/ownership/ownership.md)
 
 ---
 [TODO](todos.md)
