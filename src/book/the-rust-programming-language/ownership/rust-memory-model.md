@@ -49,7 +49,8 @@
 - All heap data must be owned by **_exactly one_** variable
 - Heap data can only be accessed through its current owner, not a previous owner.
 
-> If a variable **_owns_** a box, when Rust deallocates the variable's frame, then Rust deallocates the box's heap memory.
+> If a variable **_owns_** a box, when Rust deallocates the variable's frame, then Rust deallocates the box's heap
+> memory.
 
 #### Box
 
