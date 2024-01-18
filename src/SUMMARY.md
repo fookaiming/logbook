@@ -35,7 +35,7 @@
 - [The Rust Programming Language](empty.md)
     - [Cargo](./book/the-rust-programming-language/cargo.md)
     - [Common Programming Concept](book/the-rust-programming-language/common-programming-concept.md)
-    - [Rust Memory Model](book/the-rust-programming-language/ownership/rust-memory-model.md)
+    - [Rust Memory Model](book/the-rust-programming-language/rust-memory-model.md)
     - [Ownership](book/the-rust-programming-language/ownership/ownership.md)
 
 ---
