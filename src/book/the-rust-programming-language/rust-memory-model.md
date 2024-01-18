@@ -1,4 +1,4 @@
-# Rust Memory Model
+`# Rust Memory Model
 
 ## What is memory manage?
 
