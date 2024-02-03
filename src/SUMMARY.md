@@ -38,5 +38,8 @@
     - [Rust Memory Model](book/the-rust-programming-language/rust-memory-model.md)
     - [Ownership](book/the-rust-programming-language/ownership/ownership.md)
 
+- [Java Concurrency In Practice](empty.md)
+    - [Thread Safety](./book/java-concurrency-in-practice/thread_safety.md)
+
 ---
 [TODO](todos.md)
