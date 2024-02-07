@@ -121,4 +121,8 @@ ___
 
 ## Iteration
 
-### Use iterator instead of for i loop
+### Use iterator instead of for i loop whenever possible
+
+- for i loop calls size() for every iteration -> poor performance
+- for i loop is much slower when collection do not support RandomAccess (constant time access) eg: LinkedList
+- for i loop do not support removal operation while looping non thread safe collection
