@@ -128,3 +128,73 @@ public class _35 {
     }
 }
 ```
+
+### First and Last Position
+- variant of Q35
+- first apporach is the find the insertion point, then nevigate the pointer to find last element
+  - this apporach is slow when the distance between first and last element is far
+- second apporach is to search insertion point of target value then search ***insertion point of (target + 1)***
+
+> please handle the coner case and boundary check carefully, and think about how to reduce the search space by boundary check
+```text
+ Given an array of integers nums sorted in non-decreasing order,
+ find the starting and ending position of a given target value.
+ If target is not found in the array, return [-1, -1].
+
+ You must write an algorithm with O(log n) runtime complexity.
+
+ Input: nums = [5,7,7,8,8,10], target = 8
+ Output: [3,4]
+
+ Input: nums = [5,7,7,8,8,10], target = 6
+ Output: [-1,-1]
+
+ Input: nums = [], target = 0
+ Output: [-1,-1]
+
+ Constraints:
+ - 0 <= nums.length <= 10^5
+ - -10^9 <= nums[i] <= 10^9
+ - nums is a non-decreasing array.
+ - -10^9 <= target <= 10^9
+
+link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
+ ```
+```java
+public class _34 {
+    public int[] searchRange(int[] nums, int target) {
+        if (nums.length == 0) return new int[]{-1, -1};
+
+        if (nums.length == 1) return nums[0] == target ? new int[]{0, 0} : new int[]{-1, -1};
+
+        // reduce the search space by boundary check
+        if (nums[nums.length - 1] < target) return new int[]{-1, -1};
+
+        int left = binarySearch(nums, 0, target);
+        if (nums[left] != target) return new int[]{-1, -1};
+        if (left == nums.length - 1) return new int[]{left, left};
+
+        int right = binarySearch(nums, left, target + 1);
+        if (right >= nums.length) return new int[]{left, right - 1};
+        if (nums[right] > target) return new int[]{left, right - 1};
+        return new int[]{left, right};
+
+
+    }
+
+    private int binarySearch(int[] nums, int start, int target) {
+        int left = start;
+        int right = nums.length;
+        while (left < right) {
+            int mid = left + ((right - left) >> 1);
+            if (target <= nums[mid]) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return left;
+    }
+}
+```
