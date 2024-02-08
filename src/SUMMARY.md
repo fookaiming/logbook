@@ -2,6 +2,10 @@
 
 [Max FOO](./maxfoo/maxfoo.md)
 
+- [TODO](todos.md)
+
+---
+
 # SEC
 
 ---
@@ -55,4 +59,3 @@
 
 ---
 
-    [TODO](todos.md)
