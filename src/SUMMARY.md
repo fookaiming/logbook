@@ -9,8 +9,8 @@
 # DEV
 
 - [JAVA](./dev/java/java.md)
-    - [Virtual Thread](./dev/java/virtual-thread)
-    - [Concurrency](./dev/java/java-concurrency)
+    - [Virtual Thread](dev/java/virtual-thread/virtual-thread.md)
+    - [Concurrency](./dev/java/java-concurrency.md)
     - [Tips and Tricks](./dev/java/tips_and_tricks/tips_and_tricks.md)
 
 - [Data Structure](./dev/data-structure/data-structure.md)
